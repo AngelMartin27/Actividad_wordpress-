@@ -1,0 +1,137 @@
+/*
+Theme Name: NoticiasAngelTheme
+Theme URI: http://www.example.com
+Author: Angel
+Author URI: http://www.example.com
+Description: Dicen que esto es un tema de WordPress ahora te toca a ti descubrirlo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: NoticiasAngelTheme
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px 15px;
+  display: block;
+}
+nav ul li a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+}
+
+article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+article h2 {
+  color: #333;
+}   
+
+.entrada{
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #fafafa;
+}
+
+footer h3 {
+  color: #ffcc00;
+}
+
+footer a {
+  color: #fcfcfc; 
+  text-decoration: none; 
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
+
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center; 
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #fcfcfc;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 900px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
