@@ -31,21 +31,25 @@ header img {
 }
 
 nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
-  color: white;
+  color: #fcfcfc;
+  text-decoration: none;
   padding: 10px 15px;
   display: block;
 }
+
 nav ul li a:hover {
   background-color: #444;
   border-radius: 5px;
@@ -63,11 +67,12 @@ article {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
 article h2 {
   color: #333;
-}   
+}
 
-.entrada{
+.entrada {
   border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 20px;
@@ -79,14 +84,13 @@ footer h3 {
 }
 
 footer a {
-  color: #fcfcfc; 
-  text-decoration: none; 
+  color: #fcfcfc;
+  text-decoration: none;
 }
 
 footer a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
-
 
 footer ul {
   list-style: none;
@@ -96,34 +100,6 @@ footer ul {
 footer ul li {
   margin: 5px 0;
 }
-
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap; 
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  justify-content: center; 
-}
-
-nav ul li {
-  margin: 0 15px; 
-}
-
-
-nav ul li a {
-  text-decoration: none;
-  color: #fcfcfc;
-  padding: 10px 15px;
-  display: block;
-}
-
-nav ul li a:hover {
-  background-color: #f0f0f0;
-  border-radius: 5px;
-}
-
 
 @media (max-width: 900px) {
   nav ul {
